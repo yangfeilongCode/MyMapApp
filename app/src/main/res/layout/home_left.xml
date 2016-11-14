@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <RelativeLayout
+         android:background="@mipmap/aaaa"
+         android:layout_weight="1"
+         android:layout_width="match_parent"
+         android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/iv_home_left_user_imag"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/user_icon"
+            android:layout_width="800dp"
+            android:layout_height="80dp" />
+         <TextView
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginBottom="10dp"
+             android:textColor="#ffffff"
+             android:textSize="20sp"
+             android:text="寻宝达人"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+     </RelativeLayout>
+     <LinearLayout
+         android:background="@mipmap/bg_slidingmenu_left"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:orientation="vertical"
+         android:layout_weight="2"
+         android:layout_width="match_parent"
+         android:layout_height="0dp">
+         <LinearLayout
+             android:gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="60dp">
+             <ImageView
+                 android:src="@mipmap/ic_hide"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp" />
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:textColor="#ffffff"
+                 android:textSize="20sp"
+                 android:text="我来藏宝"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+          <View
+              android:background="#aaaaaa"
+              android:layout_width="match_parent"
+              android:layout_height="3px"/>
+         <LinearLayout
+             android:gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="60dp">
+             <ImageView
+                 android:src="@mipmap/ic_my_list"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp" />
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:textColor="#ffffff"
+                 android:textSize="20sp"
+                 android:text="我的列表"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <View
+             android:background="#aaaaaa"
+             android:layout_width="match_parent"
+             android:layout_height="3px"/>
+         <LinearLayout
+             android:gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="60dp">
+             <ImageView
+                 android:src="@mipmap/ic_live_help"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp" />
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:textColor="#ffffff"
+                 android:textSize="20sp"
+                 android:text="关于帮助"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <View
+             android:background="#aaaaaa"
+             android:layout_width="match_parent"
+             android:layout_height="3px"/>
+         <LinearLayout
+             android:gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:layout_width="match_parent"
+             android:layout_height="60dp">
+             <ImageView
+                 android:src="@mipmap/ic_logout"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp" />
+             <TextView
+                 android:layout_marginLeft="20dp"
+                 android:textColor="#ffffff"
+                 android:textSize="20sp"
+                 android:text="注销"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+         <View
+             android:background="#aaaaaa"
+             android:layout_width="match_parent"
+             android:layout_height="3px"/>
+
+     </LinearLayout>
+ </LinearLayout>

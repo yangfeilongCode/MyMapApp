@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="@mipmap/screen_bg"
+    android:paddingTop="40dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/edit_selector"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@mipmap/ic_person_white"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+    <EditText
+        android:id="@+id/et_register_name"
+        android:background="@null"
+        android:hint="请输入帐户！"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/edit_selector"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@mipmap/ic_lock_white"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+    <EditText
+        android:id="@+id/et_register_password"
+        android:background="@null"
+        android:hint="请输入密码！"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+     <LinearLayout
+         android:gravity="center"
+         android:background="@drawable/edit_selector"
+         android:layout_width="match_parent"
+         android:layout_height="50dp">
+         <ImageView
+             android:src="@mipmap/ic_lock_outline_white"
+             android:layout_width="35dp"
+             android:layout_height="35dp" />
+    <EditText
+        android:id="@+id/et_register_affirm_password"
+        android:background="@null"
+        android:hint="请确认密码！"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <Button
+        android:id="@+id/btn_pass_register"
+        android:background="#0099ff"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="注册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+</LinearLayout>

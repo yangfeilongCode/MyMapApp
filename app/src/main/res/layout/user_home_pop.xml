@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="#ffffff"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <Button
+        android:id="@+id/btn_pop_camera"
+        android:background="#0099ff"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="相机拍照"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <Button
+        android:id="@+id/btn_pop_photo"
+        android:background="#0099ff"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="相机上传"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <Button
+        android:id="@+id/btn_pop_abolish"
+        android:background="#555555"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="取消"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
